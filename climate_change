@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Environment</title>
+</head>
+<body>
+<h1>Climate Change</h1>
+<img src="FSD/evs.jpg" width="300" height="300">
+<p>The below link provides an article on climate change</p>
+<a href="https://www.un.org/en/climatechange/what-is-climate-change">climate_change</a>
+<h2>Solutions</h2>
+<p>Sustainable Development Goals<br>Using renewable energy<br>Protect oceans and forests<br>Reduce Plastic</p>
+<h3>Policies</h3>
+<p><b><i>National Action Plan on Climate Change (NAPCC)</i></b><br><b><i>National Clean Air Programme (NCAP)</i></b><br><b><i>Ujjwal Bharat</i></b></p>
+</body>
+</html>
