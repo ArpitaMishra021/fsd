@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background: #80e6ec; /* If you want plain white, change to #fff */
+            color: #000;
+        }
+
+        /* Flex layout for image and content side-by-side */
+        .layout {
+            display: flex;
+            align-items: flex-start;
+            gap: 30px;
+        }
+
+        /* Image styling */
+        .profile-image img {
+            width: 280px;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .section {
+            margin-bottom: 25px;
+        }
+
+        .section-title {
+            font-size: 20px;
+            font-weight: bold;
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="layout">
+
+        <!-- Left side image -->
+        <div class="profile-image">
+            <img src="https://spaces-wp.imgix.net/2016/06/coding-in-the-classroom.png?auto=compress,format&q=50">
+        </div>
+
+        <!-- Right side resume text (NOW WITHOUT ANY CONTAINER OR BOX) -->
+        <div>
+            <h1>Arpita Mishra</h1>
+
+            <p>Email: arpita12@example.com</p>
+            <p>Phone: 1234567890</p>
+            <p>Location: Delhi, India</p>
+
+            <div class="section">
+                <div class="section-title">Profile</div>
+                <p>
+                    I am a hardworking and honest employee who is willing to upgrade my skills according 
+                    to the latest trends. I request you to consider my application.
+                </p>
+            </div>
+
+            <div class="section">
+                <div class="section-title">Skills</div>
+                <ul>
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>Communication Skills</li>
+                    <li>Teamwork & Leadership</li>
+                    <li>Problem-solving</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <div class="section-title">Education</div>
+                <p><strong>B.Tech</strong> — ABES Engineering College, Ghaziabad (2025)</p>
+            </div>
+
+            <div class="section">
+                <div class="section-title">Experience</div>
+                <p><strong>HR</strong> — Microsoft (2022–2024)</p>
+                <ul>
+                    <li>Awarded Employee of the Year</li>
+                    <li>Participated in various hackathons</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
