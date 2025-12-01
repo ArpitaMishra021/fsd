@@ -1,0 +1,95 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+  <meta charset="utf-8" /> 
+  <title>E-Commerce Website</title> 
+  <style>
+    body {
+      background-color: #f3f3f3;
+      font-family: Arial, sans-serif;
+      font-style: italic;
+      text-align: center;
+      margin: 0;
+    }
+    .site-header {
+      background-color: #b45df6;
+      color:solid black;
+      padding: 15px;
+      border-bottom: 4px solid black;
+    }
+    .site-header h1 {
+      margin: 5px;
+      font-size: 32px;
+      font-style: italic;
+    }
+    .product-card {
+      background-color: white;
+      width: 320px;
+      margin: 30px auto;
+      padding: 15px;
+      border-radius: 10px;
+      border: 2px solid #ddd;
+    }
+    .product-image {
+      border-radius: 8px;
+      border: 2px solid #ccc;
+    }
+    .product-title {
+      color: #333;
+      font-size: 24px;
+      margin-top: 10px;
+    }
+    .product-desc {
+      font-size: 16px;
+      color: #555;
+      margin: 10px;
+      padding: 8px;
+      background-color: #f7f7f7;
+      border-radius: 5px;
+    }
+    .price-row {
+      margin: 10px 0;
+    }
+    .price {
+      font-size: 22px;
+      color: #E53935;
+      font-weight: bold;
+    }
+    .old-price {
+      text-decoration: line-through;
+      color: #888;
+      margin-left: 10px;
+    }
+    .add-cart {
+      background-color: #2196F3;
+      color: white;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+      width: 100%;
+    }
+    .add-cart:hover {
+      background-color: #1976D2;
+    }
+  </style>
+</head> 
+<body> 
+  <header class="site-header"> 
+    <h1>ShopEasy</h1> 
+  </header> 
+  <main class="container"> 
+    <section class="product-card"> 
+      <img class="product-image" src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcS8k7KRRok1kz2cNZwYsgPVVDcY_oIaLDUMZs3eW1O6RP8_gj8YsDuhqyef4BNj_YpEA2UgatmYbVCHpZ1BN3rXFghoyL_kBbUu0ElXPMD1UYZJ5rMXHqCL" height="350" width="300" alt="Product">
+      <h2 class="product-title">Wireless Bluetooth Headphone</h2> 
+      <p class="product-desc">This is a high-quality portable Bluetooth headphone with clear sound.</p> 
+      <div class="price-row"> 
+        <span class="price">Rs.3,100</span> 
+        <span class="old-price">Rs.5,983</span> 
+      </div> 
+      <button class="add-cart">Add to Cart</button> 
+    </section> 
+  </main> 
+</body>
+</html> 
