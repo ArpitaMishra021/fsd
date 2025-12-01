@@ -1,0 +1,71 @@
+.header h1 {
+    background-color: beige;
+    font-family: 'Pacifico', cursive;
+    font-size: 48px;
+    color: #E60023;
+    letter-spacing: -2px;
+    text-align: center;
+}
+.navbar {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+.nav-item {
+    color: white;
+    background-color: #555;
+    padding: 10px 20px;
+    margin: 5px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.nav-item:hover {
+    background-color: #777;
+}
+.category-title {
+    font-size: 28px;
+    margin-top: 30px;
+    color: #E60023;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+.sub-nav {
+    text-align: center;
+    margin-top: 5px;
+}
+.sub-nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.clear {
+    clear: both;
+}
+.ladies {
+    background-color: #ffd6e0;
+}
+.ladies:hover {
+    background-color: #ff87c3;
+}
+.men {
+    background-color: #d6eaff;
+}
+.men:hover {
+    background-color:#8ec1f7;
+}
+.kids {
+    background-color: #d9f7d6;
+}
+.kids:hover {
+    background-color: #a6fb9e;
+}
+.beauty {
+    background-color: #e8d6ff;
+}
+.beauty:hover {
+     background-color: #c69aff;
+}
