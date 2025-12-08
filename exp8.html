@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox use</title>
+    <style>
+        body { 
+      font-family: Arial, sans-serif; 
+      margin: 0; 
+      background: #f5f5f5; 
+      padding: 20px; 
+    } 
+     h1{text-align: center;} 
+    .container{ 
+      display: flex;                  
+      flex-direction: row;       
+      justify-content: center;        
+      align-items: center;            
+      gap: 20px;                       
+      flex-wrap:wrap;
+    }
+    .card{ 
+      background-color:#C1E59F;
+      border-radius: 8px;  
+      width: 220px; 
+      text-align: center; 
+      padding: 16px; 
+      box-shadow: 0 4px 6px rgb(98, 98, 98);
+    }
+    .avatar{ 
+      width: 70px; 
+      height: 70px; 
+      background: #FF5555; 
+      color: #fff; 
+      border-radius: 50%; 
+      display: flex; 
+      justify-content: center; 
+      align-items: center; 
+      font-size: 20px; 
+      margin: 0 auto 12px; 
+    } 
+    .name {
+      font-size:18px;
+      font-weight:bold;
+    }
+    .detail{
+      margin:2px 0;
+    }
+    </style>
+</head>
+<body>
+    <h1>Student Profile</h1>
+    <div class="container">
+      <div class="card">
+        <div class="avatar">RS</div>
+        <div class="name">Rahul Sharma</div>
+        <div class="detail">B.Tech CSE</div>
+        <div class="detail">Roll No.-2025B121</div>
+        <div class="detail">1st Year</div>
+      </div>
+      <div class="card">
+        <div class="avatar">AS</div>
+        <div class="name">Ananya Singh</div>
+        <div class="detail">B.Tech CSE</div>
+        <div class="detail">Roll No.-2025B122</div>
+        <div class="detail">1st Year</div>
+      </div>
+      <div class="card">
+        <div class="avatar">AG</div>
+        <div class="name">Avika Gaur</div>
+        <div class="detail">B.Tech CSE</div>
+        <div class="detail">Roll No.-2025B123</div>
+        <div class="detail">1st Year</div>
+      </div>
+    </div>
+</body>
+</html>
