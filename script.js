@@ -30,15 +30,15 @@ console.log(a);
 let c=45;
 let d="45";
 console.log(c==d);
-let temperature=25;
-if(temperature>30){
-    console.log("it's hot");
+let marks=95;
+if(marks>85){
+    console.log("Excellent");
 }
-else if(temperature>20){
-    console.log("it's warm");
+else if(marks>75){
+    console.log("Good");
 }
 else{
-    console.log("it's cold");
+    console.log("Work Hard!");
 }
 let aged=20;
 let status=(aged>=18)? 'Adult' : 'Minor';
@@ -56,4 +56,5 @@ switch(day){
         break;
     default:
         console.log("Just another day")
+
 }
